@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeTapeArchives&k=1:
+  /?Action=DescribeTapeArchives:
     get:
       summary: ' Describe Tape Archives '
       description: |-
