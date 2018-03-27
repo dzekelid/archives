@@ -13,9 +13,9 @@ tags:
 - Storage
 - Stack Network
 - Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/archives/master/_listings/aws-glacier/apis.yaml
+created: "2018-03-27"
+modified: "2018-03-27"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/aws-glacier/apis.yaml
 specificationVersion: "0.14"
 apis: []
 x-common:
