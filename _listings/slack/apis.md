@@ -42,17 +42,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/groups-archive-post.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/groups-archive-post-postman.md
-- name: Slack Unarchive Group
-  description: Unarchives a private channel.
+- name: Slack Archive Conversation
+  description: Archives a conversation.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://slack.com
   baseURL: https://slack.com//api
   tags: Archives
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/groups-unarchive-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/conversations-archive-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/groups-unarchive-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/conversations-archive-post-postman.md
 x-common:
 - type: x-application-gallery
   url: https://slack.com/apps
