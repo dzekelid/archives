@@ -35,17 +35,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/aws-storage-gateway-service/action-retrievetapearchive-get.md
-- name: AWS Storage Gateway Service API Describe Tape Archives
+- name: AWS Storage Gateway Service API Retrieve Tape Archive
   description: |-
-    Returns a description of specified virtual tapes in the virtual tape shelf
-             (VTS).
+    Retrieves an archived virtual tape from the virtual tape shelf (VTS) to a
+             gateway-VTL.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
   humanURL: https://aws.amazon.com/storagegateway/
   baseURL: http:://{host}//
   tags: Archives
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/aws-storage-gateway-service/action-describetapearchives-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/aws-storage-gateway-service/action-retrievetapearchive-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/storagegateway/latest/APIReference
