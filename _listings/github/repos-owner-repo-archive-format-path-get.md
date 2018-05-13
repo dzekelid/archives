@@ -1,12 +1,14 @@
 ---
 swagger: "2.0"
 info:
-  title: GitHub
-  description: GitHub is the best place to share code with friends, co-workers, classmates,
-    and complete strangers. Over 24 million people use GitHub to build amazing things
-    together across 67 million repositories. With the collaborative features of GitHub.com
-    and GitHub Business, it has never been easier for individuals and teams to write
-    faster, better code.
+  title: Github Get Repos Owner Repo Archive Format Path
+  description: |-
+    Get archive link.
+    This method will return a 302 to a URL to download a tarball or zipball
+    archive for a repository. Please make sure your HTTP framework is
+    configured to follow redirects or you will need to use the Location header
+    to make a second GET request.
+    Note: For private repositories, these links are temporary and expire quickly.
   termsOfService: https://help.github.com/articles/github-terms-of-service/#b-api-terms
   version: 1.0.0
 host: api.github.com
