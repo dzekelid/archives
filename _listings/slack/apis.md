@@ -39,9 +39,9 @@ apis:
   tags: Archives
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/channels-archive-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/conversations-unarchive-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/channels-archive-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/conversations-unarchive-post-postman.md
 x-common:
 - type: x-application-gallery
   url: https://slack.com/apps
