@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Apps Admin SDK Merged API
+  title: Google Apps Admin SDK API Archive Mail
   version: 1.0.0
+  description: Inserts a new mail into the archive of the Google group.
 schemes:
 - http
 produces:
