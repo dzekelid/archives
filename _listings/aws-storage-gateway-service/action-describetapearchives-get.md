@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Storage Gateway Service API
+  title: AWS Storage Gateway Service API Describe Tape Archives
   version: 1.0.0
+  description: |-
+    Returns a description of specified virtual tapes in the virtual tape shelf
+             (VTS).
 schemes:
 - http
 produces:
