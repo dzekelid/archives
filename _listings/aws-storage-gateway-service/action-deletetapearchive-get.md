@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Storage Gateway Service API
+  title: AWS Storage Gateway Service API Delete Tape Archive
   version: 1.0.0
+  description: Deletes the specified virtual tape from the virtual tape shelf (VTS).
 schemes:
 - http
 produces:
