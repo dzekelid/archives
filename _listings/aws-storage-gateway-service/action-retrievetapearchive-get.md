@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Storage Gateway Service API
+  title: AWS Storage Gateway Service API Retrieve Tape Archive
   version: 1.0.0
+  description: |-
+    Retrieves an archived virtual tape from the virtual tape shelf (VTS) to a
+             gateway-VTL.
 schemes:
 - http
 produces:
