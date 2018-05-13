@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Stride
-  description: This service provides public API for the Stride.
+  title: Stride Archive conversation
+  description: Authentication required, with scope manage:conversation
   version: 1.0.0
 host: api.atlassian.com
 basePath: /
