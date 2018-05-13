@@ -34,7 +34,7 @@ apis:
   tags: Archives
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/aws-storage-gateway-service/action-describetapearchives-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/aws-storage-gateway-service/action-retrievetapearchive-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/storagegateway/latest/APIReference
