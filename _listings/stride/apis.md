@@ -5,19 +5,19 @@ description: Stride is a cloud-based team business communication and collaborati
   tool, launched by Atlassian to replace the cloud-based version of HipChat. Stride
   software is available to download onto computers running Windows, Mac or Linux,
   as well as Android, iOS smartphones, and tablets
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/atlassian-stride-logo.jpg
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
 x-kinRank: "8"
-x-alexaRank: "0"
+x-alexaRank: "40723"
 tags: Archives
-created: "2018-06-17"
-modified: "2018-06-17"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/stride/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Stride Archive conversation
   x-api-slug: stride
   description: Authentication required, with scope manage:conversation
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/atlassian-stride-logo.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
   humanURL: https://www.stride.com/
   baseURL: https://api.atlassian.com////site/{cloudId}/conversation/{conversationId}/archive
   tags: Messaging,Site, Cloud, Conversation, Conversation, Archives
@@ -27,7 +27,7 @@ apis:
 - name: Stride Unarchive conversation
   x-api-slug: stride
   description: Authentication required, with scope manage:conversation
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/atlassian-stride-logo.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
   humanURL: https://www.stride.com/
   baseURL: https://api.atlassian.com////site/{cloudId}/conversation/{conversationId}/unarchive
   tags: Messaging,Site, Cloud, Conversation, Conversation, Unarchive, Archives
@@ -40,7 +40,7 @@ apis:
     tool, launched by Atlassian to replace the cloud-based version of HipChat. Stride
     software is available to download onto computers running Windows, Mac or Linux,
     as well as Android, iOS smartphones, and tablets
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/atlassian-stride-logo.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
   humanURL: https://www.stride.com/
   baseURL: https://api.atlassian.com//
   tags: Archives
@@ -54,6 +54,8 @@ x-common:
   url: https://blog.stride.com/
 - type: x-buttons
   url: https://developer.atlassian.com/cloud/stride/blocks/stride-button/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/stride
 - type: x-developer
   url: https://developer.atlassian.com/cloud/stride/
 - type: x-getting-started

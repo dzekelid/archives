@@ -4,7 +4,7 @@ description: This is a repository of archives APIs, self-contained as a Github r
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/archives.png
 created: "2018-02-24"
-modified: "2018-06-17"
+modified: "2018-06-25"
 url: http://archives.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -18,10 +18,10 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/aws-storage-gateway-service/apis.yaml
 - name: GitHub
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/github/apis.yaml
-- name: Stride
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/stride/apis.yaml
 - name: Google Apps Admin SDK
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/google-apps-admin-sdk/apis.yaml
+- name: Stride
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/stride/apis.yaml
 - name: Fire Browse Beta API
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/fire-browse-beta-api/apis.yaml
 maintainers:
