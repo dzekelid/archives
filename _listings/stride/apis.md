@@ -13,44 +13,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/stride/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Stride
-  x-api-slug: stride
-  description: this-service-provides-public-api-for-the-stride-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
-  humanURL: https://www.stride.com/
-  baseURL: https://api.atlassian.com//
-  tags: Technology, Mobile, SaaS, Chats, Messages, Relative Data, Service API, Relative
-    StreamRank, Networks, Streams
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/stride/sitecloudidconversationconversationidarchive-put-openapi.md
-- name: Stride
-  x-api-slug: stride
-  description: this-service-provides-public-api-for-the-stride-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
-  humanURL: https://www.stride.com/
-  baseURL: https://api.atlassian.com//
-  tags: Technology, Mobile, SaaS, Chats, Messages, Relative Data, Service API, Relative
-    StreamRank, Networks, Streams
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/stride/sitecloudidconversationconversationidarchive-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/stride/sitecloudidconversationconversationidunarchive-put-openapi.md
-- name: Stride
-  x-api-slug: stride
-  description: Stride is a cloud-based team business communication and collaboration
-    tool, launched by Atlassian to replace the cloud-based version of HipChat. Stride
-    software is available to download onto computers running Windows, Mac or Linux,
-    as well as Android, iOS smartphones, and tablets
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
-  humanURL: https://www.stride.com/
-  baseURL: https://api.atlassian.com//
-  tags: Archives
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/stride/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://strava.api.gallery.streamdata.io

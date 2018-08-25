@@ -13,9 +13,21 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/logmein/apis.md
 specificationVersion: "0.14"
 apis:
-- name: GoToAssist Remote Support
-  x-api-slug: gotoassist-remote-support
-  description: -setup-instructionsgotoassist-remote-support-api-documentationhttpsgotodeveloper-logmeininc-comapigotoassistrsapi-environment-template1--choose-the-gotoassist-rs-template-on-the-environment-dropdown-menu-top-right-corner-of-the-window2--click-on-the-eye-icon-quick-look-right-next-to-the-environment-dropdown-box-then-click-on-edit-right-next-to-the-environments-name3--fill-the-environment-variables-client-id-and-client-secret-from-your-account--you-can-retrieve-these-by-creating-a-new-app-on-the-developer-centerhttpsgotodeveloper-logmeininc-comusermeapps--oauth-2-01--make-sure-the-gotoassist-rs-environment-is-selected-on-the-dropdown-box-on-top-right-of-the-main-screen-2--rightclick-the-collection-on-the-left-bar3--click-on-edit4--click-on-authorization-tab5--click-on-get-new-access-token6--fill-the-form-with-the-variables-below--they-will-be-pulled-automatically-from-the-environment-template-you-just-loaded---callback-url-callback-url---auth-url-auth-url---access-token-url-access-token-url---client-id-client-id---client-secret-client-secret---client-authentication-send-as-basic-auth-header7--click-on-request-token--you-should-see-a-gotoassist-login-screen-now-8--login-with-your-gotoassist-credentials-9--allow-the-permission-request-to-access-data-from-your-account-10--if-you-had-success-you-should-see-your-newly-generated-access-token--scroll-to-the-bottom-11--copy-your-organizerkey--youll-need-to-save-it-later-as-environment-variable-12--click-on-use-token-13--now-just-make-sure-you-paste-the-organizerkey-on-the-organizerkey-variable-in-your-environment-disclaimer-gotoassist-access-tokens-expire-in-just-1h-so-you-might-need-to-repeat-steps-112-of-the-oauth-2-0-process-every-hour-you-are-working-with-the-api-
+- name: GoToAssist Remote Support - Mark Recordings as Archived
+  x-api-slug: archiverecordingsarchivedrecordingids-put
+  description: "This method marks a list of recordings as archived by setting their
+    archived flag to \u201Ctrue.\u201D No more than 500 recordings can be marked as
+    archived once.\n\nNote: Session recording must be enabled on the account in order
+    to use this API method. To enable session recording, log in at https://app.gotoassist.com
+    (link is external) and go to Configure > GoToAssist Settings > Enable Session
+    Recording check box.\n\n  Request Parameters                    \n                      \n
+    \   field        data type      description    \n    recordingIds        array
+    \     A list of recordingIDs for the recordings to be archived    \n\n\nStatus
+    Codes                \n                \n    Staus Code        description    \n
+    \   204 No Content        Recordings have been archived    \n    400 Bad Request
+    \       Request may be malformed or property may be missing or invalid    \n    403
+    Forbidden        Invalid authorization header or invalid recordingIDs    \n    500
+    Internal Server Error        Unexpected server error"
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
   humanURL: http://www.LogMeInInc.com
   baseURL: https://api.getgo.com//G2A/rest/v1
@@ -26,9 +38,21 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/logmein/archiverecordingsarchivedrecordingids-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/logmein/archiverecordingsarchivedrecordingids-put-openapi.md
-- name: GoToAssist Remote Support
-  x-api-slug: gotoassist-remote-support
-  description: -setup-instructionsgotoassist-remote-support-api-documentationhttpsgotodeveloper-logmeininc-comapigotoassistrsapi-environment-template1--choose-the-gotoassist-rs-template-on-the-environment-dropdown-menu-top-right-corner-of-the-window2--click-on-the-eye-icon-quick-look-right-next-to-the-environment-dropdown-box-then-click-on-edit-right-next-to-the-environments-name3--fill-the-environment-variables-client-id-and-client-secret-from-your-account--you-can-retrieve-these-by-creating-a-new-app-on-the-developer-centerhttpsgotodeveloper-logmeininc-comusermeapps--oauth-2-01--make-sure-the-gotoassist-rs-environment-is-selected-on-the-dropdown-box-on-top-right-of-the-main-screen-2--rightclick-the-collection-on-the-left-bar3--click-on-edit4--click-on-authorization-tab5--click-on-get-new-access-token6--fill-the-form-with-the-variables-below--they-will-be-pulled-automatically-from-the-environment-template-you-just-loaded---callback-url-callback-url---auth-url-auth-url---access-token-url-access-token-url---client-id-client-id---client-secret-client-secret---client-authentication-send-as-basic-auth-header7--click-on-request-token--you-should-see-a-gotoassist-login-screen-now-8--login-with-your-gotoassist-credentials-9--allow-the-permission-request-to-access-data-from-your-account-10--if-you-had-success-you-should-see-your-newly-generated-access-token--scroll-to-the-bottom-11--copy-your-organizerkey--youll-need-to-save-it-later-as-environment-variable-12--click-on-use-token-13--now-just-make-sure-you-paste-the-organizerkey-on-the-organizerkey-variable-in-your-environment-disclaimer-gotoassist-access-tokens-expire-in-just-1h-so-you-might-need-to-repeat-steps-112-of-the-oauth-2-0-process-every-hour-you-are-working-with-the-api-
+- name: GoToAssist Remote Support - Mark Recordings as Archived
+  x-api-slug: archiverecordingsarchivedrecordingids-put
+  description: "This method marks a list of recordings as archived by setting their
+    archived flag to \u201Ctrue.\u201D No more than 500 recordings can be marked as
+    archived once.\n\nNote: Session recording must be enabled on the account in order
+    to use this API method. To enable session recording, log in at https://app.gotoassist.com
+    (link is external) and go to Configure > GoToAssist Settings > Enable Session
+    Recording check box.\n\n  Request Parameters                    \n                      \n
+    \   field        data type      description    \n    recordingIds        array
+    \     A list of recordingIDs for the recordings to be archived    \n\n\nStatus
+    Codes                \n                \n    Staus Code        description    \n
+    \   204 No Content        Recordings have been archived    \n    400 Bad Request
+    \       Request may be malformed or property may be missing or invalid    \n    403
+    Forbidden        Invalid authorization header or invalid recordingIDs    \n    500
+    Internal Server Error        Unexpected server error"
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
   humanURL: http://www.LogMeInInc.com
   baseURL: https://api.getgo.com//G2A/rest/v1
@@ -39,11 +63,21 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/logmein/archiverecordingsarchivedrecordingids-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/logmein/archiverecordingsarchivedrecordingids-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/logmein/archiverecordingsarchivedrecordingids-put-openapi.md
-- name: GoToAssist Remote Support
-  x-api-slug: gotoassist-remote-support
-  description: -setup-instructionsgotoassist-remote-support-api-documentationhttpsgotodeveloper-logmeininc-comapigotoassistrsapi-environment-template1--choose-the-gotoassist-rs-template-on-the-environment-dropdown-menu-top-right-corner-of-the-window2--click-on-the-eye-icon-quick-look-right-next-to-the-environment-dropdown-box-then-click-on-edit-right-next-to-the-environments-name3--fill-the-environment-variables-client-id-and-client-secret-from-your-account--you-can-retrieve-these-by-creating-a-new-app-on-the-developer-centerhttpsgotodeveloper-logmeininc-comusermeapps--oauth-2-01--make-sure-the-gotoassist-rs-environment-is-selected-on-the-dropdown-box-on-top-right-of-the-main-screen-2--rightclick-the-collection-on-the-left-bar3--click-on-edit4--click-on-authorization-tab5--click-on-get-new-access-token6--fill-the-form-with-the-variables-below--they-will-be-pulled-automatically-from-the-environment-template-you-just-loaded---callback-url-callback-url---auth-url-auth-url---access-token-url-access-token-url---client-id-client-id---client-secret-client-secret---client-authentication-send-as-basic-auth-header7--click-on-request-token--you-should-see-a-gotoassist-login-screen-now-8--login-with-your-gotoassist-credentials-9--allow-the-permission-request-to-access-data-from-your-account-10--if-you-had-success-you-should-see-your-newly-generated-access-token--scroll-to-the-bottom-11--copy-your-organizerkey--youll-need-to-save-it-later-as-environment-variable-12--click-on-use-token-13--now-just-make-sure-you-paste-the-organizerkey-on-the-organizerkey-variable-in-your-environment-disclaimer-gotoassist-access-tokens-expire-in-just-1h-so-you-might-need-to-repeat-steps-112-of-the-oauth-2-0-process-every-hour-you-are-working-with-the-api-
+- name: GoToAssist Remote Support - Mark Recordings as Archived
+  x-api-slug: archiverecordingsarchivedrecordingids-put
+  description: "This method marks a list of recordings as archived by setting their
+    archived flag to \u201Ctrue.\u201D No more than 500 recordings can be marked as
+    archived once.\n\nNote: Session recording must be enabled on the account in order
+    to use this API method. To enable session recording, log in at https://app.gotoassist.com
+    (link is external) and go to Configure > GoToAssist Settings > Enable Session
+    Recording check box.\n\n  Request Parameters                    \n                      \n
+    \   field        data type      description    \n    recordingIds        array
+    \     A list of recordingIDs for the recordings to be archived    \n\n\nStatus
+    Codes                \n                \n    Staus Code        description    \n
+    \   204 No Content        Recordings have been archived    \n    400 Bad Request
+    \       Request may be malformed or property may be missing or invalid    \n    403
+    Forbidden        Invalid authorization header or invalid recordingIDs    \n    500
+    Internal Server Error        Unexpected server error"
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
   humanURL: http://www.LogMeInInc.com
   baseURL: https://api.getgo.com//G2A/rest/v1
@@ -54,58 +88,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/logmein/archiverecordingsarchivedrecordingids-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/logmein/archiverecordingsarchivedrecordingids-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/logmein/archiverecordingsarchivedrecordingids-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/logmein/archiverecordingsarchivedrecordingids-put-openapi.md
-- name: GoToAssist Remote Support
-  x-api-slug: gotoassist-remote-support
-  description: LogMeIn, Inc. is a provider of software as a service and cloud-based
-    remote connectivity services for collaboration, IT management and customer engagement,
-    founded in 2003 and based in Boston, Massachusetts.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
-  humanURL: http://www.LogMeInInc.com
-  baseURL: https://api.getgo.com//G2A/rest/v1
-  tags: Archives
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/logmein/openapi.md
-- name: GoToMeeting
-  x-api-slug: gotomeeting
-  description: LogMeIn, Inc. is a provider of software as a service and cloud-based
-    remote connectivity services for collaboration, IT management and customer engagement,
-    founded in 2003 and based in Boston, Massachusetts.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
-  humanURL: http://www.LogMeInInc.com
-  baseURL: https://api.getgo.com//G2M/rest
-  tags: Archives
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/logmein/openapi.md
-- name: GoToTraining
-  x-api-slug: gototraining
-  description: LogMeIn, Inc. is a provider of software as a service and cloud-based
-    remote connectivity services for collaboration, IT management and customer engagement,
-    founded in 2003 and based in Boston, Massachusetts.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
-  humanURL: http://www.LogMeInInc.com
-  baseURL: https://api.getgo.com//G2T/rest
-  tags: Archives
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/logmein/openapi.md
-- name: GoToWebinar
-  x-api-slug: gotowebinar
-  description: LogMeIn, Inc. is a provider of software as a service and cloud-based
-    remote connectivity services for collaboration, IT management and customer engagement,
-    founded in 2003 and based in Boston, Massachusetts.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
-  humanURL: http://www.LogMeInInc.com
-  baseURL: https://api.getgo.com//G2W/rest/organizers
-  tags: Archives
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/logmein/openapi.md
 x-common:
 - type: x-github
   url: https://github.com/logmein
