@@ -34,6 +34,54 @@ paths:
       tags:
       - Tapes
       - Archives
+  /?Action=RetrieveTapeArchive:
+    get:
+      summary: Retrieve Tape Archive
+      description: |-
+        Retrieves an archived virtual tape from the virtual tape shelf (VTS) to a
+                 gateway-VTL.
+      operationId: retrieveTapeArchive
+      x-api-path-slug: actionretrievetapearchive-get
+      parameters:
+      - in: query
+        name: GatewayARN
+        description: The Amazon Resource Name (ARN) of the gateway you want to retrieve
+          the virtual tape         to
+        type: string
+      - in: query
+        name: TapeARN
+        description: The Amazon Resource Name (ARN) of the virtual tape you want to
+          retrieve from the         virtual tape shelf (VTS)
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Tapes
+      - Archives
+  /?Action=CancelArchival:
+    get:
+      summary: Cancel Archival
+      description: |-
+        Cancels archiving of a virtual tape to the virtual tape shelf (VTS) after the
+                 archiving process is initiated.
+      operationId: cancelArchival
+      x-api-path-slug: actioncancelarchival-get
+      parameters:
+      - in: query
+        name: GatewayARN
+        description: The Amazon Resource Name (ARN) of the gateway
+        type: string
+      - in: query
+        name: TapeARN
+        description: The Amazon Resource Name (ARN) of the virtual tape you want to
+          cancel archiving         for
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Archival
   /?Action=DescribeTapeArchives:
     get:
       summary: Describe Tape Archives
@@ -63,31 +111,6 @@ paths:
           description: OK
       tags:
       - Tape Archives
-  /?Action=RetrieveTapeArchive:
-    get:
-      summary: Retrieve Tape Archive
-      description: |-
-        Retrieves an archived virtual tape from the virtual tape shelf (VTS) to a
-                 gateway-VTL.
-      operationId: retrieveTapeArchive
-      x-api-path-slug: actionretrievetapearchive-get
-      parameters:
-      - in: query
-        name: GatewayARN
-        description: The Amazon Resource Name (ARN) of the gateway you want to retrieve
-          the virtual tape         to
-        type: string
-      - in: query
-        name: TapeARN
-        description: The Amazon Resource Name (ARN) of the virtual tape you want to
-          retrieve from the         virtual tape shelf (VTS)
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Tapes
-      - Archives
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -11,91 +11,189 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Archives
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Slack Archive Channel
+- name: Slack
   x-api-slug: slack
-  description: Archives a channel.
+  description: one-way-to-interact-with-the-slack-platform-is-its-http-rpcbased-web-api-a-collection-of-methods-requiring-oauth-2-0based-user-bot-or-workspace-tokens-blessed-with-related-oauth-scopes-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://api.slack.com
-  baseURL: https://slack.com//api//channels.archive
-  tags: Messaging,Channels, Archives
+  baseURL: https://slack.com//api
+  tags: Collaboration, My API Stack, Indie EdTech Data Jam, Imports, Getting Started
+    Example, Communications, Change Log Example, Stack Network, Stack, Media, Chats,
+    Messages, Messages, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/channels-archive-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/channels-archive-post-openapi.md
-- name: Slack Unarchve Conversation
+- name: Slack
   x-api-slug: slack
-  description: Reverses conversation archival.
+  description: one-way-to-interact-with-the-slack-platform-is-its-http-rpcbased-web-api-a-collection-of-methods-requiring-oauth-2-0based-user-bot-or-workspace-tokens-blessed-with-related-oauth-scopes-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://api.slack.com
-  baseURL: https://slack.com//api//conversations.unarchive
-  tags: Messaging,Conversations, Archives
+  baseURL: https://slack.com//api
+  tags: Collaboration, My API Stack, Indie EdTech Data Jam, Imports, Getting Started
+    Example, Communications, Change Log Example, Stack Network, Stack, Media, Chats,
+    Messages, Messages, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/channels-archive-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/channels-archive-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/conversations-unarchive-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/conversations-unarchive-post-openapi.md
-- name: Slack Create Child Group
+- name: Slack
   x-api-slug: slack
-  description: Clones and archives a private channel.
+  description: one-way-to-interact-with-the-slack-platform-is-its-http-rpcbased-web-api-a-collection-of-methods-requiring-oauth-2-0based-user-bot-or-workspace-tokens-blessed-with-related-oauth-scopes-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://api.slack.com
-  baseURL: https://slack.com//api//groups.createChild
-  tags: Messaging,Groups, archives
+  baseURL: https://slack.com//api
+  tags: Collaboration, My API Stack, Indie EdTech Data Jam, Imports, Getting Started
+    Example, Communications, Change Log Example, Stack Network, Stack, Media, Chats,
+    Messages, Messages, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/channels-archive-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/channels-archive-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/conversations-unarchive-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/conversations-unarchive-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/groups-createchild-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/groups-createchild-post-openapi.md
-- name: Slack Unarchive Channel
+- name: Slack
   x-api-slug: slack
-  description: Unarchives a channel.
+  description: one-way-to-interact-with-the-slack-platform-is-its-http-rpcbased-web-api-a-collection-of-methods-requiring-oauth-2-0based-user-bot-or-workspace-tokens-blessed-with-related-oauth-scopes-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://api.slack.com
-  baseURL: https://slack.com//api//channels.unarchive
-  tags: Messaging,Channels, Archives
+  baseURL: https://slack.com//api
+  tags: Collaboration, My API Stack, Indie EdTech Data Jam, Imports, Getting Started
+    Example, Communications, Change Log Example, Stack Network, Stack, Media, Chats,
+    Messages, Messages, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/channels-archive-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/channels-archive-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/conversations-unarchive-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/conversations-unarchive-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/groups-createchild-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/groups-createchild-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/channels-unarchive-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/channels-unarchive-post-openapi.md
-- name: Slack Unarchive Group
+- name: Slack
   x-api-slug: slack
-  description: Unarchives a private channel.
+  description: one-way-to-interact-with-the-slack-platform-is-its-http-rpcbased-web-api-a-collection-of-methods-requiring-oauth-2-0based-user-bot-or-workspace-tokens-blessed-with-related-oauth-scopes-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://api.slack.com
-  baseURL: https://slack.com//api//groups.unarchive
-  tags: Messaging,Groups, Archives
+  baseURL: https://slack.com//api
+  tags: Collaboration, My API Stack, Indie EdTech Data Jam, Imports, Getting Started
+    Example, Communications, Change Log Example, Stack Network, Stack, Media, Chats,
+    Messages, Messages, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/channels-archive-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/channels-archive-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/conversations-unarchive-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/conversations-unarchive-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/groups-createchild-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/groups-createchild-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/channels-unarchive-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/channels-unarchive-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/groups-unarchive-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/groups-unarchive-post-openapi.md
-- name: Slack Archive Conversation
+- name: Slack
   x-api-slug: slack
-  description: Archives a conversation.
+  description: one-way-to-interact-with-the-slack-platform-is-its-http-rpcbased-web-api-a-collection-of-methods-requiring-oauth-2-0based-user-bot-or-workspace-tokens-blessed-with-related-oauth-scopes-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://api.slack.com
-  baseURL: https://slack.com//api//conversations.archive
-  tags: Messaging,Conversations, Archives
+  baseURL: https://slack.com//api
+  tags: Collaboration, My API Stack, Indie EdTech Data Jam, Imports, Getting Started
+    Example, Communications, Change Log Example, Stack Network, Stack, Media, Chats,
+    Messages, Messages, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/channels-archive-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/channels-archive-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/conversations-unarchive-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/conversations-unarchive-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/groups-createchild-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/groups-createchild-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/channels-unarchive-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/channels-unarchive-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/groups-unarchive-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/groups-unarchive-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/conversations-archive-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/conversations-archive-post-openapi.md
-- name: Slack Archive Group
+- name: Slack
   x-api-slug: slack
-  description: Archives a private channel.
+  description: one-way-to-interact-with-the-slack-platform-is-its-http-rpcbased-web-api-a-collection-of-methods-requiring-oauth-2-0based-user-bot-or-workspace-tokens-blessed-with-related-oauth-scopes-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://api.slack.com
-  baseURL: https://slack.com//api//groups.archive
-  tags: Messaging,Groups,Archives
+  baseURL: https://slack.com//api
+  tags: Collaboration, My API Stack, Indie EdTech Data Jam, Imports, Getting Started
+    Example, Communications, Change Log Example, Stack Network, Stack, Media, Chats,
+    Messages, Messages, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/channels-archive-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/channels-archive-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/conversations-unarchive-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/conversations-unarchive-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/groups-createchild-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/groups-createchild-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/channels-unarchive-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/channels-unarchive-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/groups-unarchive-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/groups-unarchive-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/conversations-archive-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/conversations-archive-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/groups-archive-post-postman.md
   - type: x-openapi-spec
@@ -118,6 +216,10 @@ apis:
 x-common:
 - type: x-website
   url: https://api.slack.com
+- type: x-api-gallery
+  url: http://site24x7.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://slack.stack.network
 - type: x-application-gallery
   url: https://slack.com/apps
 - type: x-blog
