@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Archives
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/gig--crowd/apis.md
 specificationVersion: "0.14"
 apis:
@@ -60,6 +60,30 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/gig--crowd/apiv1requestartarchive-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/gig--crowd/apiv1requestartarchive-get-openapi.md
+- name: GIG & Crowd - Get Request Art Archive
+  x-api-slug: apiv1requestartarchive-get
+  description: Get request art archive.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png
+  humanURL: https://gigandcrowd.com
+  baseURL: https://gigandcrowd.com//
+  tags: Events, Concerts, Entertainment, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/gig--crowd/apiv1requestartarchive-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/gig--crowd/apiv1requestartarchive-get-openapi.md
+- name: GIG & Crowd - Get Request Org Archive
+  x-api-slug: apiv1requestorgarchive-get
+  description: Get request org archive.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png
+  humanURL: https://gigandcrowd.com
+  baseURL: https://gigandcrowd.com//
+  tags: Events, Concerts, Entertainment, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/gig--crowd/apiv1requestorgarchive-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/gig--crowd/apiv1requestorgarchive-get-openapi.md
 x-common:
 - type: x-openapi
   url: https://gigandcrowd.com/swagger/docs/v1

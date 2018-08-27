@@ -1,356 +1,264 @@
 {
-	"name": "Dezrez",
-	"x-slug": "dezrez",
-	"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
-	"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-	"x-kinRank": "7",
-	"x-alexaRank": "385559",
-	"tags": "Archives",
-	"created": "2018-08-25",
-	"modified": "2018-08-25",
-	"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apis.md",
+	"name": "Streadata.io API Gallery - Archives",
+	"description": "This is a repository of archives APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/archives.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://archives.streamdata.gallery/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 		{
-			"name": "Dezrez",
-			"x-api-slug": "dezrez",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
-			"tags": "SaaS, Technology, Real Estate, Properties, Service API, Relative Data",
+			"name": "GitHub",
+			"x-api-slug": "github",
+			"description": "GitHub brings together the worlds largest community of developers to discover, share, and build better software. From open source projects to private team repositories, were your all-in-one platform for collaborative development.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png",
+			"humanURL": "https://github.com",
+			"baseURL": "https:///",
+			"tags": "Archives",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apiaccountingsystemsystembalance-put-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apiaccountingsystemsystembalance-put-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/github/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Dezrez",
-			"x-api-slug": "dezrez",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
-			"tags": "SaaS, Technology, Real Estate, Properties, Service API, Relative Data",
+			"name": "Atlassian",
+			"x-api-slug": "atlassian",
+			"description": "Millions of users globally rely on Atlassian products every day for improving software development, project management, collaboration, and code quality.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg",
+			"humanURL": "http://atlassian.com/",
+			"baseURL": "https:////",
+			"tags": "Archives",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apiaccountingsystemsystembalance-put-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apiaccountingsystemsystembalance-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apigrouparchivegroups-post-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/atlassian/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Dezrez",
-			"x-api-slug": "dezrez",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
-			"tags": "SaaS, Technology, Real Estate, Properties, Service API, Relative Data",
+			"name": "Free Music Archive",
+			"x-api-slug": "free-music-archive",
+			"description": "The Free Music Archive is an interactive library of high-quality, legal audio downloads.  The Free Music Archive is directed by WFMU, the most renowned freeform radio station in America.  Radio has always offered the public free access to new music. Th...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/796-free-music-archive.jpg",
+			"humanURL": "http://freemusicarchive.org",
+			"baseURL": "https:///",
+			"tags": "Archives",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apiaccountingsystemsystembalance-put-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apiaccountingsystemsystembalance-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apigrouparchivegroups-post-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apibranchupdatescheduledtaskstatusid-post-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apibranchupdatescheduledtaskstatusid-post-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/free-music-archive/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Dezrez",
-			"x-api-slug": "dezrez",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
-			"tags": "SaaS, Technology, Real Estate, Properties, Service API, Relative Data",
+			"name": "UK National Archives",
+			"x-api-slug": "uk-national-archives",
+			"description": "The National Archives (TNA) is a non-ministerial government department. Its parent department is the Department for Culture, Media and Sport of the United Kingdom of Great Britain and Northern Ireland. It is the official archive of the UK government and for England and Wales; and guardian of some of the nations most iconic documents, dating back more than 1,000 years. There are separate national archives for Scotland (the National Records of Scotland) and Northern Ireland (the Public Record Office of Northern Ireland).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uk-national-archives.jpeg",
+			"humanURL": "http://discovery.nationalarchives.gov.uk/SearchUI/api.htm",
+			"baseURL": "https://api.gettyimages.com//",
+			"tags": "Archives",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apiaccountingsystemsystembalance-put-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apiaccountingsystemsystembalance-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apigrouparchivegroups-post-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apibranchupdatescheduledtaskstatusid-post-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apibranchupdatescheduledtaskstatusid-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apinegotiatorgetarchived-get-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/uk-national-archives/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Dezrez",
-			"x-api-slug": "dezrez",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
-			"tags": "SaaS, Technology, Real Estate, Properties, Service API, Relative Data",
+			"name": "CallFire",
+			"x-api-slug": "callfire",
+			"description": "Grow your business with virtual phone numbers, IVR, voice broadcasting, mass text messaging services and power dialing. Try CallFire for FREE!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg",
+			"humanURL": "http://www.callfire.com",
+			"baseURL": "https://www.callfire.com//v2",
+			"tags": "Archives",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apiaccountingsystemsystembalance-put-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apiaccountingsystemsystembalance-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apigrouparchivegroups-post-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apibranchupdatescheduledtaskstatusid-post-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apibranchupdatescheduledtaskstatusid-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apinegotiatorgetarchived-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apigrouparchivegroups-post-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/callfire/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Dezrez",
-			"x-api-slug": "dezrez",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
-			"tags": "SaaS, Technology, Real Estate, Properties, Service API, Relative Data",
+			"name": "Slack",
+			"x-api-slug": "slack",
+			"description": "Slack is a team communication application providing services such as real-time messaging, archiving, and to search for modern teams. It offers one-on-one messaging, private groups, persistent chat rooms, and direct messaging as well as group chats organized by topic. All content inside Slack is searchable from one search box and it integrates with a number of third-party services, including Google Docs, Dropbox, Heroku, Crashlytics, GitHub, and Zendesk.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png",
+			"humanURL": "https://api.slack.com",
+			"baseURL": "https://slack.com//api",
+			"tags": "Archives",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apiaccountingsystemsystembalance-put-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apiaccountingsystemsystembalance-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apigrouparchivegroups-post-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apibranchupdatescheduledtaskstatusid-post-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apibranchupdatescheduledtaskstatusid-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apinegotiatorgetarchived-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apigrouparchivegroups-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apiaccountingsystemsystembalance-put-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Dezrez",
-			"x-api-slug": "dezrez",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
-			"tags": "SaaS, Technology, Real Estate, Properties, Service API, Relative Data",
+			"name": "AWS Glacier",
+			"x-api-slug": "aws-glacier",
+			"description": "Amazon Glacier is a secure, durable, and extremely low-cost cloud storage service for data archiving and long-term backup. Customers can reliably store large or small amounts of data for as little as $0.004 per gigabyte per month, a significant savings compared to on-premises solutions. To keep costs low yet suitable for varying retrieval needs, Amazon Glacier provides three options for access to archives, from a few minutes to several hours.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonGlacier.png",
+			"humanURL": "https://aws.amazon.com/glacier/",
+			"baseURL": ":///",
+			"tags": "Archives",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apiaccountingsystemsystembalance-put-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apiaccountingsystemsystembalance-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apigrouparchivegroups-post-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apibranchupdatescheduledtaskstatusid-post-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apibranchupdatescheduledtaskstatusid-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apinegotiatorgetarchived-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apigrouparchivegroups-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apiaccountingsystemsystembalance-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apibranchupdatescheduledtaskstatusid-post-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/aws-glacier/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Dezrez",
-			"x-api-slug": "dezrez",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
-			"tags": "SaaS, Technology, Real Estate, Properties, Service API, Relative Data",
+			"name": "AWS Storage Gateway Service",
+			"x-api-slug": "aws-storage-gateway-service",
+			"description": "The AWS Storage Gateway service seamlessly enables hybrid storage between on-premises storage environments andthe AWS Cloud. It combines a multi-protocol storage appliance with highly efficient network connectivity toAmazon cloud storageservices, delivering local performance with virtually unlimited scale. Customers use it in remote offices and datacenters for hybrid cloud workloads, backup and restore, archive, disaster recovery, and tiered storage.The Storage Gateway virtual appliance connects seamlessly to your local infrastructure as a file server, as a volume, or as a virtual tape library (VTL). This seamless connection makes it simple for organizations to augment existing on-premises storage investments with the high scalability, extreme durability and low cost of cloud storage.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png",
+			"humanURL": "https://aws.amazon.com/storagegateway/",
+			"baseURL": ":///",
+			"tags": "Archives",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apiaccountingsystemsystembalance-put-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apiaccountingsystemsystembalance-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apigrouparchivegroups-post-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apibranchupdatescheduledtaskstatusid-post-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apibranchupdatescheduledtaskstatusid-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apinegotiatorgetarchived-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apigrouparchivegroups-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apiaccountingsystemsystembalance-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apibranchupdatescheduledtaskstatusid-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apibranchupdatescheduledtaskstatusid-post-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/aws-storage-gateway-service/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Dezrez",
-			"x-api-slug": "dezrez",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
-			"tags": "SaaS, Technology, Real Estate, Properties, Service API, Relative Data",
+			"name": "Google Apps Admin SDK",
+			"x-api-slug": "google-apps-admin-sdk",
+			"description": "Administer domain resources, create reports, and manage subscriptions. Use the Directory API to create and manage users and groups for a domain, along with their aliases. Programmatically access the functionality found at the Admin console Organization and users tab. Use the Reports API to gain insights on content management with Google Drive activity reports. Audit administrator actions. Generate customer and user usage reports.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nexusae0_icon2.png",
+			"humanURL": "https://developers.google.com/admin-sdk/",
+			"baseURL": "https:///",
+			"tags": "Archives",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apiaccountingsystemsystembalance-put-postman.md"
-				},
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/google-apps-admin-sdk/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Stride",
+			"x-api-slug": "stride",
+			"description": "Stride is a cloud-based team business communication and collaboration tool, launched by Atlassian to replace the cloud-based version of HipChat. Stride software is available to download onto computers running Windows, Mac or Linux, as well as Android, iOS smartphones, and tablets",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg",
+			"humanURL": "https://www.stride.com/",
+			"baseURL": "https://api.atlassian.com//",
+			"tags": "Archives",
+			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apiaccountingsystemsystembalance-put-openapi.md"
-				},
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/stride/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Archives",
+			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apigrouparchivegroups-post-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apibranchupdatescheduledtaskstatusid-post-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apibranchupdatescheduledtaskstatusid-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apinegotiatorgetarchived-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apigrouparchivegroups-post-openapi.md"
-				},
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Trello",
+			"x-api-slug": "trello",
+			"description": "Trusted by millions, Trello is the visual collaboration tool that creates a shared perspective on any project. Trello&rsquo;s boards, lists and cards enable you to organize and prioritize your personal and work life in a fun, flexible and rewarding way.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/trello-logo.png",
+			"humanURL": "http://trello.com",
+			"baseURL": "https://trello.com//1",
+			"tags": "Archives",
+			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apiaccountingsystemsystembalance-put-openapi.md"
-				},
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/trello/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Fire Browse",
+			"x-api-slug": "fire-browse",
+			"description": "A simple and elegant way to explore cancer data. Sitting above one of the deepest and most integratively characterized open cancer datasets in the world. Backed by a powerful computational infrastructure, application programming interface (API), graphical tools and online reports. With over 80K sample aliquots from 11,000+ cancer patients, spanning 38 unique disease cohorts.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebrowse.png",
+			"humanURL": "http://firebrowse.org",
+			"baseURL": "https://firebrowse.org//api/v1",
+			"tags": "Archives",
+			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apibranchupdatescheduledtaskstatusid-post-openapi.md"
-				},
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/fire-browse/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Predix",
+			"x-api-slug": "predix",
+			"description": "Predix (IoT PaaS) helps you develop apps that connect people with industrial machines through analytics and data for better business outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png",
+			"humanURL": "https://www.predix.io",
+			"baseURL": "https:////v1",
+			"tags": "Archives",
+			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apibranchupdatescheduledtaskstatusid-post-openapi.md"
-				},
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/predix/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GitLab",
+			"x-api-slug": "gitlab",
+			"description": "GitLab is a web-based Git-repository manager with wiki, issue-tracking and CI/CD pipelines features, using an open-source license, developed by GitLab Inc.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png",
+			"humanURL": "http://gitlab.com",
+			"baseURL": "https://localhost:3000//api",
+			"tags": "Archives",
+			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/apinegotiatorgetarchived-get-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/gitlab/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "LogMeIn",
+			"x-api-slug": "logmein",
+			"description": "LogMeIn, Inc. is a provider of software as a service and cloud-based remote connectivity services for collaboration, IT management and customer engagement, founded in 2003 and based in Boston, Massachusetts.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg",
+			"humanURL": "http://www.LogMeInInc.com",
+			"baseURL": "https://api.getgo.com//G2W/rest/organizers",
+			"tags": "Archives",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/logmein/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GIG & CROWD",
+			"x-api-slug": "gig--crowd",
+			"description": "A unique system of the order and booking of artists: negotiations, coordination of conditions, convenient reminders of fee payment terms and rider preparation.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png",
+			"humanURL": "https://gigandcrowd.com",
+			"baseURL": "https://gigandcrowd.com//",
+			"tags": "Archives",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/gig--crowd/openapi.md"
 				}
 			]
 		},
@@ -358,59 +266,91 @@
 			"name": "Dezrez",
 			"x-api-slug": "dezrez",
 			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
 			"tags": "Archives",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/archives\/master\/_listings\/dezrez\/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/dezrez/openapi.md"
 				}
 			]
 		}
 	],
-	"x-common": [
-		{
-			"type": "x-github",
-			"url": "https:\/\/github.com\/dezrez"
-		},
-		{
-			"type": "x-openapi",
-			"url": "https:\/\/api.dezrez.com:443\/swagger\/docs\/v1"
-		},
-		{
-			"type": "x-api-gallery",
-			"url": "http:\/\/datumbox.api.gallery.streamdata.io"
-		},
-		{
-			"type": "x-api-stack",
-			"url": "http:\/\/dezrez.stack.network"
-		},
-		{
-			"type": "x-documentation",
-			"url": "https:\/\/api.dezrez.com\/swagger\/ui\/index#!\/AccountingExport"
-		},
-		{
-			"type": "x-support",
-			"url": "https:\/\/www.dezrez.com\/uk\/estate-agency-software-support"
-		},
-		{
-			"type": "x-twitter",
-			"url": "https:\/\/twitter.com\/dezrezsoftware"
-		},
-		{
-			"type": "x-website",
-			"url": "https:\/\/www.dezrez.com"
-		}
-	],
+	"tags": "Archives",
 	"include": [
-	],
-	"maintainers": [
 		{
-			"FN": "Kin Lane",
-			"x-twitter": "apievangelist",
-			"email": "info@apievangelist.com"
+			"name": "GitHub",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/github/apis.yaml"
+		},
+		{
+			"name": "Atlassian",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/atlassian/apis.yaml"
+		},
+		{
+			"name": "Free Music Archive",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/free-music-archive/apis.yaml"
+		},
+		{
+			"name": "UK National Archives",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/uk-national-archives/apis.yaml"
+		},
+		{
+			"name": "CallFire",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/callfire/apis.yaml"
+		},
+		{
+			"name": "Slack",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/slack/apis.yaml"
+		},
+		{
+			"name": "AWS Glacier",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/aws-glacier/apis.yaml"
+		},
+		{
+			"name": "AWS Storage Gateway Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/aws-storage-gateway-service/apis.yaml"
+		},
+		{
+			"name": "Google Apps Admin SDK",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/google-apps-admin-sdk/apis.yaml"
+		},
+		{
+			"name": "Stride",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/stride/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Trello",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/trello/apis.yaml"
+		},
+		{
+			"name": "Fire Browse",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/fire-browse/apis.yaml"
+		},
+		{
+			"name": "Predix",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/predix/apis.yaml"
+		},
+		{
+			"name": "GitLab",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/gitlab/apis.yaml"
+		},
+		{
+			"name": "LogMeIn",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/logmein/apis.yaml"
+		},
+		{
+			"name": "GIG & CROWD",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/gig--crowd/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/dezrez/apis.yaml"
 		}
 	]
 }

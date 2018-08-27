@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: ""
 tags: Archives
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/gitlab/apis.md
 specificationVersion: "0.14"
 apis:
@@ -61,6 +61,54 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/gitlab/v3projectsidrepositoryarchive-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/gitlab/v3projectsidrepositoryarchive-get-openapi.md
+- name: API title - Get Projects Repository Archive
+  x-api-slug: v3projectsidrepositoryarchive-get
+  description: Get an archive of the repository
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png
+  humanURL: http://gitlab.com
+  baseURL: https://localhost:3000//api
+  tags: Orchestration, Code, Static, Versions, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/gitlab/v3projectsidrepositoryarchive-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/gitlab/v3projectsidrepositoryarchive-get-openapi.md
+- name: API title - Get Projects Repository Archive
+  x-api-slug: v3projectsidrepositoryarchive-get
+  description: Get an archive of the repository
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png
+  humanURL: http://gitlab.com
+  baseURL: https://localhost:3000//api
+  tags: Orchestration, Code, Static, Versions, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/gitlab/v3projectsidrepositoryarchive-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/gitlab/v3projectsidrepositoryarchive-get-openapi.md
+- name: API title - Get Projects Repository Archive
+  x-api-slug: v3projectsidrepositoryarchive-get
+  description: Get an archive of the repository
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png
+  humanURL: http://gitlab.com
+  baseURL: https://localhost:3000//api
+  tags: Orchestration, Code, Static, Versions, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/gitlab/v3projectsidrepositoryarchive-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/gitlab/v3projectsidrepositoryarchive-get-openapi.md
+- name: API title - Post Projects Archive
+  x-api-slug: v3projectsidarchive-post
+  description: Post projects archive.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png
+  humanURL: http://gitlab.com
+  baseURL: https://localhost:3000//api
+  tags: Orchestration, Code, Static, Versions, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/gitlab/v3projectsidarchive-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/gitlab/v3projectsidarchive-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://github.api.gallery.streamdata.io

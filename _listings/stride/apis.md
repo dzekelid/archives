@@ -9,11 +9,33 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stri
 x-kinRank: "8"
 x-alexaRank: "40723"
 tags: Archives
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/stride/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Stride - Archive conversation
+  x-api-slug: sitecloudidconversationconversationidarchive-put
+  description: Authentication required, with scope manage:conversation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
+  humanURL: https://www.stride.com/
+  baseURL: https://api.atlassian.com//
+  tags: Technology, Mobile, SaaS, Chats, Messages, Relative Data, Service API, Relative
+    StreamRank, Networks, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/stride/sitecloudidconversationconversationidarchive-put-openapi.md
+- name: Stride - Unarchive conversation
+  x-api-slug: sitecloudidconversationconversationidunarchive-put
+  description: Authentication required, with scope manage:conversation
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
+  humanURL: https://www.stride.com/
+  baseURL: https://api.atlassian.com//
+  tags: Technology, Mobile, SaaS, Chats, Messages, Relative Data, Service API, Relative
+    StreamRank, Networks, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/stride/sitecloudidconversationconversationidunarchive-put-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://strava.api.gallery.streamdata.io

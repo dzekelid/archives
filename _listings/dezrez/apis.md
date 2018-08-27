@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-
 x-kinRank: "7"
 x-alexaRank: "385559"
 tags: Archives
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/dezrez/apis.md
 specificationVersion: "0.14"
 apis:
@@ -24,6 +24,16 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/dezrez/apiaccountingsystemsystembalance-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/dezrez/apiaccountingsystemsystembalance-put-openapi.md
+- name: Dezrez.Rezi.Client.Api - Archive groups in bulk
+  x-api-slug: apigrouparchivegroups-post
+  description: Archive groups in bulk.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/dezrez/apigrouparchivegroups-post-openapi.md
 - name: Dezrez.Rezi.Client.Api - Update SystemStatus of ScheduledTask to Active, Inactive,
     Deleted or Archived.
   x-api-slug: apibranchupdatescheduledtaskstatusid-post
@@ -38,6 +48,26 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/dezrez/apibranchupdatescheduledtaskstatusid-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/dezrez/apibranchupdatescheduledtaskstatusid-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Get all archived Negotiators for the Agency's branch.
+  x-api-slug: apinegotiatorgetarchived-get
+  description: Get all archived negotiators for the agency's branch..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/dezrez/apinegotiatorgetarchived-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Archive groups in bulk
+  x-api-slug: apigrouparchivegroups-post
+  description: Archive groups in bulk.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/dezrez/apigrouparchivegroups-post-openapi.md
 - name: Dezrez.Rezi.Client.Api - Archives the accounting system
   x-api-slug: apiaccountingsystemsystembalance-put
   description: Archives the accounting system.
@@ -64,6 +94,50 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/dezrez/apibranchupdatescheduledtaskstatusid-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/dezrez/apibranchupdatescheduledtaskstatusid-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Update SystemStatus of ScheduledTask to Active, Inactive,
+    Deleted or Archived.
+  x-api-slug: apibranchupdatescheduledtaskstatusid-post
+  description: Update systemstatus of scheduledtask to active, inactive, deleted or
+    archived..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/dezrez/apibranchupdatescheduledtaskstatusid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/dezrez/apibranchupdatescheduledtaskstatusid-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Get all archived Negotiators for the Agency's branch.
+  x-api-slug: apinegotiatorgetarchived-get
+  description: Get all archived negotiators for the agency's branch..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/dezrez/apinegotiatorgetarchived-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Archive groups in bulk
+  x-api-slug: apigrouparchivegroups-post
+  description: Archive groups in bulk.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/dezrez/apigrouparchivegroups-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Get all archived Negotiators for the Agency's branch.
+  x-api-slug: apinegotiatorgetarchived-get
+  description: Get all archived negotiators for the agency's branch..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/dezrez/apinegotiatorgetarchived-get-openapi.md
 - name: Dezrez.Rezi.Client.Api - Update SystemStatus of ScheduledTask to Active, Inactive,
     Deleted or Archived.
   x-api-slug: apibranchupdatescheduledtaskstatusid-post

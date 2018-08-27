@@ -8,11 +8,61 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-
 x-kinRank: "7"
 x-alexaRank: "7271"
 tags: Archives
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/logmein/apis.md
 specificationVersion: "0.14"
 apis:
+- name: GoToAssist Remote Support - Mark Recordings as Archived
+  x-api-slug: archiverecordingsarchivedrecordingids-put
+  description: "This method marks a list of recordings as archived by setting their
+    archived flag to \u201Ctrue.\u201D No more than 500 recordings can be marked as
+    archived once.\n\nNote: Session recording must be enabled on the account in order
+    to use this API method. To enable session recording, log in at https://app.gotoassist.com
+    (link is external) and go to Configure > GoToAssist Settings > Enable Session
+    Recording check box.\n\n  Request Parameters                    \n                      \n
+    \   field        data type      description    \n    recordingIds        array
+    \     A list of recordingIDs for the recordings to be archived    \n\n\nStatus
+    Codes                \n                \n    Staus Code        description    \n
+    \   204 No Content        Recordings have been archived    \n    400 Bad Request
+    \       Request may be malformed or property may be missing or invalid    \n    403
+    Forbidden        Invalid authorization header or invalid recordingIDs    \n    500
+    Internal Server Error        Unexpected server error"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
+  humanURL: http://www.LogMeInInc.com
+  baseURL: https://api.getgo.com//G2A/rest/v1
+  tags: SaaS, Technology, Enterprise, Voice, Videoconferencing, Audio, Webinars, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/logmein/archiverecordingsarchivedrecordingids-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/logmein/archiverecordingsarchivedrecordingids-put-openapi.md
+- name: GoToAssist Remote Support - Mark Recordings as Archived
+  x-api-slug: archiverecordingsarchivedrecordingids-put
+  description: "This method marks a list of recordings as archived by setting their
+    archived flag to \u201Ctrue.\u201D No more than 500 recordings can be marked as
+    archived once.\n\nNote: Session recording must be enabled on the account in order
+    to use this API method. To enable session recording, log in at https://app.gotoassist.com
+    (link is external) and go to Configure > GoToAssist Settings > Enable Session
+    Recording check box.\n\n  Request Parameters                    \n                      \n
+    \   field        data type      description    \n    recordingIds        array
+    \     A list of recordingIDs for the recordings to be archived    \n\n\nStatus
+    Codes                \n                \n    Staus Code        description    \n
+    \   204 No Content        Recordings have been archived    \n    400 Bad Request
+    \       Request may be malformed or property may be missing or invalid    \n    403
+    Forbidden        Invalid authorization header or invalid recordingIDs    \n    500
+    Internal Server Error        Unexpected server error"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
+  humanURL: http://www.LogMeInInc.com
+  baseURL: https://api.getgo.com//G2A/rest/v1
+  tags: SaaS, Technology, Enterprise, Voice, Videoconferencing, Audio, Webinars, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/logmein/archiverecordingsarchivedrecordingids-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/archives/master/_listings/logmein/archiverecordingsarchivedrecordingids-put-openapi.md
 - name: GoToAssist Remote Support - Mark Recordings as Archived
   x-api-slug: archiverecordingsarchivedrecordingids-put
   description: "This method marks a list of recordings as archived by setting their
